@@ -1,0 +1,63 @@
+==============================================
+Sublime Plugins for Django
+
+Djanerio
+
+==========================
+Install Django framework =
+==========================
+
+pip install Django==1.11.4
+
+
+Create New Project
+===================
+
+django-admin.py startproject mysite					where startproject is dir name
+
+Create New App for Model layer:
+===============================
+
+python manage.py startapp app_name
+
+Create Super Admin:
+===================
+python manage.py createsuperuser
+
+Validate Model Syntax:
+======================
+python manage.py check
+
+Add app to project:
+===================
+add 'polls.apps.PollsConfig' in setting.py
+
+Make Migrations To SQL:
+=======================
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+
+
+Run server
+============
+
+cd project_folder
+python3 manage.py runserver
+
+python3 manage.py shell								start an interactive shell
+
+
+Making virtual environment:
+===========================
+
+virtualenv env 										setting virtual environment
+
+source ./env/bin/activate							activating virtual environment
+
+deactivate											deactivating virtual environment
+
+
+
+
+
