@@ -1,0 +1,4 @@
+git add .
+git commit -m origin
+
+git remote set-url origin https://github.com/Maanje/django-projects.git
